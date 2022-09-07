@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "order-summary-component",
   "description": "This is a React + vite app to be used with Tailwindcss.",
   "version": "0.1.0",
   "private": true,
