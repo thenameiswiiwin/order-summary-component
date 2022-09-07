@@ -3,9 +3,6 @@
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    maxWidth: {
-      'mobile': '375px'
-    },
     extend: {
       fontFamily: {
         redHat: ['Red Hat Display', 'sans-serif']
@@ -19,8 +16,8 @@ module.exports = {
         darkBlue: 'hsl(223, 47%, 23%)'
       },
       backgroundImage: {
-        mobile: "url('./src/assets/images/pattern-background-mobile.svg')",
-        desktop: "url('./src/assets/images/pattern-background-desktop.svg')"
+        bgMobile: "url('./src/assets/images/pattern-background-mobile.svg')",
+        bgDesktop: "url('./src/assets/images/pattern-background-desktop.svg')"
       }
     }
   },
