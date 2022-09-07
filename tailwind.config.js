@@ -3,6 +3,9 @@
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    maxWidth: {
+      'mobile': '375px'
+    },
     extend: {
       fontFamily: {
         redHat: ['Red Hat Display', 'sans-serif']
