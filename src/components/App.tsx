@@ -7,17 +7,17 @@ function App() {
       <div className="mx-5 max-w-[375px] space-y-9 overflow-hidden rounded-3xl bg-white">
         <img src={Hero} alt="hero" />
         <section className="mx-7 flex flex-col gap-5 pb-7 text-center">
-          <h2 className="text-2xl font-bold">Order Summary</h2>
+          <h1 className="text-2xl font-bold">Order Summary</h1>
           <p className="px-3 text-sm font-medium leading-relaxed text-gray-400">
             You can now listen to millions of songs, audiobooks, and podcasts on
             any device anywhere you like!
           </p>
           <div className="flex items-center justify-around rounded-xl bg-veryPaleBlue px-2 py-4">
             <img src={Music} alt="music logo" />
-            <span className="pr-8 text-sm leading-relaxed">
-              <h4 className="font-bold">Annual Plan</h4>
+            <div className="pr-8 text-sm leading-relaxed">
+              <h2 className="font-bold">Annual Plan</h2>
               <p className="font-medium text-gray-400">$59.99/year</p>
-            </span>
+            </div>
             <a
               className="text-sm font-bold text-brightBlue underline hover:no-underline hover:opacity-75"
               href="#"
