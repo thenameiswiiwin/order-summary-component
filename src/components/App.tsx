@@ -3,7 +3,7 @@ import Music from '../assets/images/icon-music.svg'
 
 function App() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-black bg-bgMobile bg-contain bg-no-repeat font-redHat md:bg-bgDesktop md:bg-top">
+    <main className="flex min-h-screen items-center justify-center bg-paleBlue bg-bgMobile bg-contain bg-no-repeat font-redHat md:bg-bgDesktop md:bg-top">
       <div className="mx-5 max-w-[375px] space-y-9 overflow-hidden rounded-3xl bg-white">
         <img src={Hero} alt="hero" />
         <section className="mx-7 flex flex-col gap-5 pb-7 text-center">
